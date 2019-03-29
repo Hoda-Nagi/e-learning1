@@ -1,0 +1,121 @@
+*{
+	box-sizing: border-box;
+}
+/*start about div*/
+.about{
+	width: 100%;
+    height:  46px;
+    background: #f2f4f5;
+    border-bottom: solid 1px #edeff0;
+    padding: 14px 107px;
+    margin-top: 83px;
+    padding: 14px 108px;
+}
+
+
+.feature .col-md-4 {
+	overflow: hidden;
+	padding-left: 35px;
+}
+.feature .col-md-4 img{
+	 width: 100%;
+	height: 230px;
+	transition: all 2000ms ease;
+	overflow: hidden;
+	left: 20px;
+}
+.feature .img-item{
+    width: 100%;
+    overflow: hidden
+}
+.feature .col-md-4:hover .img-item img{
+    transform: scale(1.16,1.16);
+
+} 
+.feature h3{
+	margin-left: -221px;
+    margin-top: 30px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.feature h3:hover{
+	color: #e91e63
+}
+.feature p{
+	margin-bottom: 50px;
+	margin-top: -10px
+}
+
+.feature p{
+	font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 1.85;
+    font-weight: 400;
+    color: #76777a;
+}
+
+/*end about div*/
+/*start online course*/
+.online-courses{
+	padding-bottom: 120px;
+}
+.online-courses .panel-group{
+	width: 89%
+}
+.online-courses .panel-group .panel-default>.panel-heading{
+	color: #333;
+    background-color: #f9f9f9;
+    border-color: #ddd;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.1);
+    height: 54px;
+}
+.online-courses .panel-group span{
+	transition: all 0.3s ease
+}
+.online-courses .panel-group span:hover{
+	color: #e91e63
+}
+.online-courses .panel-group .aword{
+	max-width: 90%;
+    overflow: hidden;
+    white-space: nowrap;
+  /*  font-family: 'Roboto Slab', serif;*/
+    font-size: 21px;
+    font-weight: 700;
+    color: #384158;
+    text-decoration: none
+}
+.online-courses .panel-group a{
+	text-decoration: none
+}
+.online-courses .panel-group 
+.panel-default>.panel-heading+
+.panel-collapse>.panel-body {
+    font-size: 14px;
+    font-weight: 400;
+    color: #76777a;
+    line-height: 2;
+    padding: 12px 37px;
+}
+ .online-courses .panel-group .panel{
+ 	margin-bottom: 10px;
+ }
+/*end choos us*/
+/*start carsoule*/
+.carousel{
+height: 125px;
+padding: 50px 0;
+background: #fff
+}
+/*.carousel img:hover{
+	background-color: #e91e63
+	
+}*/
+.carousel-control.left,
+.carousel-control.right
+{
+	background: #fff
+}
+/*end carsoule*/

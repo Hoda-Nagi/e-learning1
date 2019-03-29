@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+  
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" type="text/css" href="css/style.css">
+ <link rel="stylesheet" type="text/css" href="css/style2.css">
+ <link rel="stylesheet" type="text/css" href="css/plog.css">
+ <link rel="stylesheet" type="text/css" href="css/contact.css">
+
+    <meta charset="utf-8">
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 80%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- start header -->
+<div class="header">
+<div class="container">
+<div class="row">
+<div class="col-md-8">
+<span>Have Any Quesion?</span>  
+<span><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> 001-1234-88888</span>
+<span><span style="margin-right: 4px" class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+    info.deercreative@gmail.com</span>
+</div>
+<div class="col-md-3 text-right">
+<button>
+ Register or Login
+  </button>
+   </div>
+        </div>
+             </div></div>
+<!-- end header -->
+    <!-- start nav -->
+    <nav class="navbar navbar-default navbar-fixed-top ">
+        <div class="container">
+<!-- Brand and toggle get grouped for better mobile display -->
+<div class="navbar-header">
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="#">Unic<span>at</span></a>
+</div>
+
+<!-- Collect the nav links, forms, and other content for toggling -->
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+<ul class="nav navbar-nav navbar-right">
+<li ><a href="file:///E:/web/unicat%20task/index.html">Home<span class="sr-only">(current)</span></a></li>
+<li ><a href="file:///E:/web/unicat%20task/about.html">About</a></li>
+<li><a href="file:///E:/web/unicat%20task/courese.html">Courses</a></li>
+<li ><a href="file:///E:/web/unicat%20task/plog.html">Blog</a></li>
+<li><a href="#">Page</a></li>
+<li class="active"><a href="#">Contact</a></li>
+<li><a><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a></li>
+<li><a href=""><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></a></li>
+
+
+
+</ul>
+
+</div><!-- /.navbar-collapse -->
+</div><!-- /.container-fluid -->
+</nav>
+
+<!-- end nav -->
+<div class="search">
+  <div class="row">
+  
+    <div class="input-group">
+      <input type="text" class="form-control" placeholder="Search ...">
+      <span class="input-group-btn">
+        <button class="btn btn-default" type="button">Go</button>
+      </span>
+    <!-- /input-group -->
+  </div><!-- /.col-lg-6 -->
+</div><!-- /.row -->
+  
+</div>
+<!-- end search div -->
+<!-- start about -->
+<div class="about">
+  <span>Home</span>
+  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+  <span style="color: #ababab">Contact</span>
+</div>
+<!-- end about -->
+<!-- start map -->
+    <div id="map"></div>
+    <script>
+      var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: -34.397, lng: 150.644},
+          zoom: 8
+        });
+      }
+    </script>
+    <!-- end map -->
+    <!-- start contact us -->
+    <div class="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h1>contact form</h1>
+            <form class="form-horizontal">
+<div class="form-group">
+<label for="inputEmail3" class="col-sm-2 control-label"></label>
+<div class="col-sm-10">
+  <div class="title">Name</div>
+<input type="text" class="form-control" id="inputEmail3" >
+</div>
+</div>
+<div class="form-group">
+<label for="inputPassword3" class="col-sm-2 control-label"></label>
+<div class="col-sm-10">
+   <div class="title">Email</div>
+<input type="Email" class="form-control" id="inputPassword3" >
+</div>
+</div>
+<div class="form-group">
+<div class="col-sm-offset-2 col-sm-10">
+</div>
+</div>
+ <div style="    margin-left: -36px;" class="title">Message</div>
+<textarea  style="margin-left: -50px;text-align: center;height: 121px;padding-right: 196px;" class="form-control" ></textarea>
+<div class="form-group">
+<div class="col-sm-offset-2 col-sm-10">
+<button 
+ type="submit" class="btn btn-default">
+Submit Now</button>
+</div>
+</div> 
+</form>
+          </div>
+          <div class="col-lg-6">
+            <h1 style="margin-left:0;margin-bottom: 31px;">contact info</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostr Ut<br> enim ad minim veniam,</p>
+            <div class="coffe">
+              <h3>New York Coffe</h3>
+              <p>T8/480 Collins St, Melbourne VIC 3000, New York</p>
+              <p>1-234-567-89011</p>
+              <p>info.deercreative@gmail.com</p>
+            </div>
+            <div class="coffe">
+              <h3>Australia Office</h3>
+              <p>Forrest Ray, 191-103 Integer Rd, Corona Australia</p>
+              <p>1-234-567-89011</p>
+              <p>info.deercreative@gmail.com</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end contact us -->
+    <!-- start sign up -->
+         <div style="    margin-top: 24px" class="sign-up">
+           <div class="overlay2">
+           <div class="container">
+             <div class="row">
+            <div class="col-md-5">
+              <h3>sign up for news and offers</h3>
+              <p>Subcribe to lastest smartphones news & great deals we offer</p>
+              </div>
+              <div class="col-md-6">
+               <form class="form-inline">
+          <div class="form-group">
+       <input  type="text" class="form-control" id="inputPassword2" placeholder="Your Email">
+           </div>
+       <button type="submit" class="btn btn-default">Subscribe</button>
+                
+              </div>
+               </div>
+         </div>
+               </div>
+                  </div>
+
+         <!-- end sign up -->
+         <!-- start footer -->
+         <div class="footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+              <h1>Unic<span>at</span></h1>
+                <p>Lorem ipsum dolor sit ametium,<br> consectetur adipisicing elit
+                  
+                </p>
+                 <div class="social">
+                  <ul>
+           <li> <i class="fa fa-facebook"></i></li>
+           <li><i class="fa fa-twitter"></i></li>
+            <li><i class="fa fa-google-plus"></i></li>
+           <li><i class="fa fa-instagram"></i></li>
+          </ul>
+              </div>
+              </div>
+               <div class="col-md-3">
+              <h3 style="margin-bottom: 19px;font-weight: 700;font-size: 19px">Contact Us</h3>
+                <p>Email:Info.deercreative@gmail.com</p>
+                <p>Phone:  +(88) 111 555 666</p>
+                <p>40 Baria Sreet 133/2 New York City, United States</p>
+                  
+                
+              
+              </div>
+               <div class="col-md-3">
+                <h3 style="margin-bottom: 19px;font-weight: 700;font-size: 19px">Contact Us</h3>
+                <ul class="list-unstyled home">
+                  <a href=""><li>Home</li></a>
+                   <a href=""><li>About</li></a>
+                   <a href=""><li>Contact</li></a>
+                   <a href=""><li>Feature</li></a>
+                   <a href=""><li>Courses</li></a>
+                  <a href=""><li>Events</li></a>
+                   <a href=""><li>Gallery</li></a>
+                   <a href=""><li>FAQS</li></a>
+                </ul>
+
+              </div>
+               <div class="col-md-3">
+              <h3 style=" font-family: 'Roboto Slab', serif;
+               font-size: 21px;
+               font-weight: 700;
+              color: #333;
+                line-height: 0.75;">Mobile</h3>
+              <img style="margin-bottom: 12px;
+               margin-top: 20px;" src="images/mobile_1.png">
+              <img src="images/mobile_2.png">
+                
+            </div>
+          </div>
+          <hr style="border-top: 1px solid #f58eb1; width: 80%;">
+          <div class="container">
+            <div class="row">
+            <div class="col-md-6">
+              <p style="    margin-top: -15px;"> Copyright © 2018 All rights reserved |
+               This template is made with
+                <i style="padding: 16px 2px;color:#f58eb1 " class="fa fa-heart-o"></i>by
+                <span class="colorlib"> colorlib</span>
+               </p></div>
+               <div class="col-md-2">
+                <a href=""><p style="margin-top: -3px;">Copyright Notification</p></a>
+               </div>
+                <div class="col-md-2">
+                  <a href=""><p style="margin-top: -3px;">Terms Of Use</p></a>
+                </div>
+                 <div class="col-md-2">
+                   <a href=""><p style="margin-top: -3px;">Privacy Policy</p></a>
+                 </div></div>
+            </div>
+          </div>
+         </div>
+       </div>
+     </div>
+     <!-- scrolltop  -->
+     <div class="scrolltop">
+       <span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span>
+     </div>
+         
+         
+    <script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
+ <script src="js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="js/plugin.js" type="text/javascript"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"
+    async defer></script>
+    <!-- nice scroll -->
+  <script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
+  </body>
+</html>
